@@ -2,6 +2,7 @@ package datastructures;
 
 import datastructures.interfaces.HackerArrayStrategy;
 
+import java.lang.reflect.Array;
 import java.util.Scanner;
 
 /**
@@ -24,14 +25,23 @@ public class HackerArrays implements HackerArrayStrategy {
 
     private static int[] inputArray;
 
+    /**
+     * Should take in
 
+     *
+     // * @param  url  an absolute URL giving the base location of the image
+     // * @param  name the location of the image, relative to the url argument
+     // * @return      the image at the specified URL
+     // * @see         Image
+     */
     public void SimpleArray()
     {
+        System.out.println("Enter simple array data");
         Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
 
-        // Write your code here.
-        System.out.println("Int: " + i);
+//        String[] arr_temp = scan.toString().split("");
+//        System.out.println("Int: " + i);
+//        return;
     }
 
     /**
@@ -44,11 +54,13 @@ public class HackerArrays implements HackerArrayStrategy {
      */
     public void TwoDArray()
     {
+        System.out.println("Enter TwoDArray data");
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
 
         // Write your code here.
         System.out.println("Int: " + i);
+        return;
     }
 
 
