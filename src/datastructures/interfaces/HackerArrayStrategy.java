@@ -10,4 +10,6 @@ package datastructures.interfaces;
  */
 public interface HackerArrayStrategy {
     void TwoDArray();
+    void SimpleArray();
 }
+

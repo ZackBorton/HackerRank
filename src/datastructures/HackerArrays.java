@@ -25,6 +25,15 @@ public class HackerArrays implements HackerArrayStrategy {
     private static int[] inputArray;
 
 
+    public void SimpleArray()
+    {
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+
+        // Write your code here.
+        System.out.println("Int: " + i);
+    }
+
     /**
      * 2D array problem
      * Problem URL : https://www.hackerrank.com/challenges/2d-array/problemf
