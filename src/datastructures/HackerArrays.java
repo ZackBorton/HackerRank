@@ -1,33 +1,14 @@
 package datastructures;
 
-import datastructures.interfaces.HackerArrayStrategy;
-
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
-/**
- * Returns an Image object that can then be painted on the screen.
- * argument is a specifier that is relative to the url argument.
- * <p>
- * This method always returns immediately, whether or not the
- * image exists. When this applet attempts to draw the image on
- * the screen, the data will be loaded. The graphics primitives
- * that draw the image will incrementally paint on the screen.
- *
-// * @param  url  an absolute URL giving the base location of the image
-// * @param  name the location of the image, relative to the url argument
-// * @return      the image at the specified URL
-// * @see         Image
- */
-public class HackerArrays implements HackerArrayStrategy {
 
+public class HackerArrays {
 
-
-    private static int[] inputArray;
+    //TODO : Make this look pretty
 
     /**
-     * Should take in
-
+     * So basic its almost visual basic
      *
      // * @param  url  an absolute URL giving the base location of the image
      // * @param  name the location of the image, relative to the url argument
@@ -36,12 +17,21 @@ public class HackerArrays implements HackerArrayStrategy {
      */
     public void SimpleArray()
     {
-        System.out.println("Enter simple array data");
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-//        String[] arr_temp = scan.toString().split("");
-//        System.out.println("Int: " + i);
-//        return;
+        // get length
+        int length = scanner.nextInt();
+        int[] array = new int[length];
+        for(int i = 0; i < length; i++) {
+            array[i] = scanner.nextInt();
+        }
+       // reverse array
+        for(int i = length - 1; i >= 0; i--) {
+            System.out.print(array[i] + " ");
+        }
+
+        // dispose resource
+        scanner.close();
     }
 
     /**

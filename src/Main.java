@@ -1,5 +1,4 @@
 import datastructures.HackerArrays;
-import datastructures.interfaces.HackerArrayStrategy;
 
 public class Main {
 
@@ -7,6 +6,6 @@ public class Main {
         System.out.println("Starting Hacker Processing");
         HackerArrays arrayChallenges = new HackerArrays();
         arrayChallenges.SimpleArray();
-        arrayChallenges.TwoDArray();
+        //arrayChallenges.TwoDArray();
     }
 }
