@@ -6,6 +6,6 @@ public class Main {
         System.out.println("Starting Hacker Processing");
         HackerArrays arrayChallenges = new HackerArrays();
         //arrayChallenges.simpleArray();
-        arrayChallenges.twoDArray();
+        arrayChallenges.dynamicArray();
     }
 }
